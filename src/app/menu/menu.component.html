@@ -1,0 +1,14 @@
+<h2>Pagina de menús</h2>
+
+<div class="contentmenu">
+    <div>
+        <p>Menu de otra forma con angular y componentes</p>
+        <ul>
+            <li *ngFor="let link of pages">
+                <a href="#" [routerLink]="link.path">{{link.title}}</a><!--Aqui se usa corchetes en el routerLink para acceder a los datos del componente definido-->
+            </li>
+        </ul>
+    </div>
+
+    
+</div>

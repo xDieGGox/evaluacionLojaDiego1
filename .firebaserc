@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "evaluacionlojadiego"
+  },
+  "targets": {
+    "evaluacionlojadiego": {
+      "hosting": {
+        "evaluacionLojaDiego": [
+          "evaluacionlojadiego"
+        ]
+      }
+    }
+  }
+}

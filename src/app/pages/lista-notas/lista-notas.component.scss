@@ -1,0 +1,41 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+h2 {
+    color: #333333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilos para la lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para los elementos de la lista */
+li {
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: #007bff; /* Puedes cambiar este color según tus preferencias */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}

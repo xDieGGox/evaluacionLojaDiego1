@@ -1,0 +1,7 @@
+<h2>LISTA DE NOTAS EN FIREBASE</h2>
+
+<ul>
+    <li *ngFor="let nota of listaNotas | async"> <!-- Aqui con la palabra async hace que me muestre los datos para converite la coleccion asincrona a una que se pueda mostrar -->
+        <a routerLink="/pages/nota/{{nota.uid}}">{{nota.titulo}}</a>
+    </li>
+</ul>
